@@ -1,0 +1,156 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(38, 38, 38);
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Style the header */
+/* .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+   */
+/* Style the top navigation bar */
+/* .topnav {
+    overflow: hidden;
+    background-color: #333;
+  } 
+
+/* Style the topnav links */
+
+.topnav {
+
+    width: 10%;
+  
+  color: white !important;
+
+  
+}
+
+.topnav a {
+
+  color: #f2f2f2;
+  padding-left: 20px
+ 
+
+  
+} 
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Left and right column */
+/* .column.side {
+    width: 25%;
+  } */
+
+/* Middle column */
+.column.middle {
+  width: 80%;
+  float: right;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
+}
+
+.parrafo-1 {
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(28, 168, 214);
+  width: auto;
+  color: #ddd;
+  margin-right: 40px;
+  border-left: #000 solid;
+  border-right: #000 solid;
+}
+
+.parrafo-2 {
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(231, 206, 13);
+  width: auto;
+  color: #ddd;
+  margin-right: 40px;
+  border-left: #000 solid;
+  border-right: #000 solid;
+}
+.parrafo-3 {
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(253, 135, 0);
+  width: auto;
+  color: white;
+  margin-right: 40px;
+  border-left: #000 solid;
+  border-right: #000 solid;
+}
+
+.parrafo-4 {
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(255, 0, 0);
+  width: auto;
+  color: #ddd;
+  margin-right: 40px;
+  border-left: #000 solid;
+  border-right: #000 solid;
+}
+
+/* .parrafo-5 {
+    padding: 25px 50px 75px 100px;
+    background-color: rgb(28, 168, 214);
+    width: auto;
+    color: #ddd;
+    margin-right: 40px;
+    border-left: #000 solid;
+    border-right: #000 solid; */

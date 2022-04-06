@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parrafo-1 {
+
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(28, 168, 214);
+  width: 85%;
+ 
+  
+  
+}
+
+.parrafo-2 {
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(231, 206, 13);
+  width: 85%;
+  position: relative;
+  left: 150px;
+  
+}
+.parrafo-3 {
+  padding: 25px 50px 75px 100px;
+  background-color: rgb(251, 101, 8);
+  width: 85%;
+  position: relative;
+  left: 150px;
+}
+
+.parrafo-4 {
+    padding : 25px 50px 75px 100px;
+    background-color: rgb(255, 0, 0);
+    width: 85%;
+    position: relative;
+    left: 150px;
+  }
+
+  .lateral{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
