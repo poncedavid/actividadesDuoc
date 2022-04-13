@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+    display: grid;
+  }
+  
+  footer {
+    
+    padding: 0.2%;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 110, 255);
+  }
+  
+  ul li a.active {
+   
+    color: white;
+  } 
+  
+  ul li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  }
+  
+  
+  
